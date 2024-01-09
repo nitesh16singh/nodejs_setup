@@ -1,23 +1,6 @@
-# Project Title
+# Nodejs Setup project 
+  created nodejs initial project setup that contains mongoBD setup and Redis setup as well. server will run on port 3000.
 
-Short project description or tagline goes here.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-- [Usage](#usage)
-- [Technologies](#technologies)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Introduction
-
-Provide a brief introduction to your project, explaining its purpose and main features.
 
 ## Features
 
@@ -27,9 +10,7 @@ Provide a brief introduction to your project, explaining its purpose and main fe
 
 Ensure you have the following prerequisites installed on your machine:
 
-- Node.js
-- MongoDB
-- Redis
+- Docker
 
 ## Getting Started
 
@@ -38,4 +19,8 @@ Ensure you have the following prerequisites installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/nitesh16singh/nodejs_setup.git
+   cd nodejs_setup
+   npm install
+   docker build -t demo_app .
+   docker compose up
